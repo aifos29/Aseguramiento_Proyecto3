@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace Proyecto3_Clases
 {
-    class Pregunta
+    public class Pregunta
     {
-        string pregunta;
-        int dificultad;
-        List<Respuesta> respuestas = new List<Respuesta>();     
+        public string pregunta;
+        public int dificultad;
+        public List<Respuesta> respuestas = new List<Respuesta>();     
+
+        public Pregunta(string pPregunta, int pDificultad)
+        {
+            pregunta = pPregunta;
+            dificultad = pDificultad;
+        }
 
         public bool verificarRespuesta(Respuesta pRespuesta)
         {

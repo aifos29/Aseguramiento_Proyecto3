@@ -8,7 +8,13 @@ namespace Proyecto3_Clases
 {
     public class Respuesta
     {
-        String respuesta;
-        Boolean valor;
+        public String respuesta;
+        public Boolean valor;
+
+        public Respuesta(string pRespuesta, Boolean pValor)
+        {
+            respuesta = pRespuesta;
+            valor = pValor;
+        }
     }
 }
