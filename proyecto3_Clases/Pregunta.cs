@@ -11,5 +11,10 @@ namespace Proyecto3_Clases
         string pregunta;
         int dificultad;
         List<Respuesta> respuestas = new List<Respuesta>();     
+
+        public bool verificarRespuesta(Respuesta pRespuesta)
+        {
+            return true;
+        }
     }
 }

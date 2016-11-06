@@ -10,21 +10,31 @@ namespace Proyecto3_Clases
     class Juego
     {
         int total_preguntas;
+        int puntuacion;
         List<Pregunta> preguntas = new List<Pregunta>();
 
-        public void agregar_preguntas()
+
+        public int agregar_preguntas(Pregunta pPregunta)
         {
+            return preguntas.Count; /*puede ser count +1*/
+        }
+
+        public int editar_preguntas()
+        {
+            return preguntas.Count; 
 
         }
 
-        public void editar_preguntas()
+        public int borrar_preguntas()
         {
+            return preguntas.Count; /*puede ser count -1*/
 
         }
 
-        public void borrar_preguntas()
+        public int aumentarPuntuacion(Boolean pValor)
         {
-
+            if (pValor) puntuacion++;
+            return puntuacion;
         }
 
     }

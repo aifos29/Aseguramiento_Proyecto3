@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto3_Clases
 {
-    class Respuesta
+    public class Respuesta
     {
         String respuesta;
         Boolean valor;
