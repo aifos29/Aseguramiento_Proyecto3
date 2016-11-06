@@ -10,7 +10,7 @@ namespace Proyecto3_Clases
     class Juego
     {
         int total_preguntas;
-        ArrayList preguntas;
+        List<Pregunta> preguntas = new List<Pregunta>();
 
         public void agregar_preguntas()
         {

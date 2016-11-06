@@ -10,8 +10,6 @@ namespace Proyecto3_Clases
     {
         string pregunta;
         int dificultad;
-        System.Collections.ArrayList  lista;
-        
-         
+        List<Respuesta> respuestas = new List<Respuesta>();     
     }
 }

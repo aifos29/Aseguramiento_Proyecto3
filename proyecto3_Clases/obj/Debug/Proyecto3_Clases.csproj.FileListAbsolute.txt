@@ -1,1 +1,2 @@
 c:\users\sofia\documents\visual studio 2015\Projects\Proyecto3_Clases\Proyecto3_Clases\bin\Debug\Proyecto3_Clases.exe.config
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Proyecto3_Clases.exe.config
