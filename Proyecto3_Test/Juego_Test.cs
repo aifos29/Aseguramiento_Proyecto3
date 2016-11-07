@@ -11,7 +11,7 @@ namespace Proyecto3_Test
     [TestFixture]
     public class Juego_Test
     {
-        Juego juego = new Juego();
+        Juego juego = new Juego(8);
         Pregunta oPregunta = new Pregunta("Pregunta1", 6);
 
         [SetUp]
@@ -71,6 +71,19 @@ namespace Proyecto3_Test
         {
             int puntuacionReturn = juego.aumentarPuntuacion(pValor);
             Assert.AreEqual(pPuntucionEsperada, puntuacionReturn);
+        }
+
+
+
+        [TestCase(9, 9)]
+        [TestCase(1000, 1000)]
+        [TestCase(0, 0)]
+        [TestCase(-1, 0)]
+
+        public void juego_ContructorJuego(int pTotalPreguntas,int pResultadoEsperado)
+        {
+            Juego testJuego = new Juego(pTotalPreguntas);
+            Assert.AreEqual(pResultadoEsperado, testJuego.total_preguntas);
         }
 
         [Test]

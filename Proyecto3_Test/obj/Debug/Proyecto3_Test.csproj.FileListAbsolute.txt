@@ -7,3 +7,12 @@ C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Deb
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.csprojResolveAssemblyReference.cache
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.pdb
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.pdb
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.exe
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.pdb
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.xml
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.csprojResolveAssemblyReference.cache
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.pdb

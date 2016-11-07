@@ -43,6 +43,10 @@ namespace Proyecto3_Clases
             return total_preguntas;
         }
 
+        public Juego (int totalPreguntas)
+        {
+            total_preguntas = totalPreguntas;
+        }
     }
 
 
