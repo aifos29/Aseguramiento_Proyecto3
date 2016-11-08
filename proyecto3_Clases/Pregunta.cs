@@ -31,5 +31,20 @@ namespace Proyecto3_Clases
         {
             return true;
         }
+
+        public bool verificarListaValida(List<Respuesta> pRespuesta)
+        {
+            int countTrue = 0;
+            int countFalse = 0;
+            bool answ;
+            for (int i =0; i < 4; i++)
+            {
+                if (pRespuesta[i].valor) countTrue++;
+                else countFalse+=1;
+            }
+            if (countTrue == 1 && countFalse == 3) answ = true;
+            else answ = false;
+            return answ;
+        }
     }
 }

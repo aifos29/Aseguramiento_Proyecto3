@@ -54,6 +54,13 @@ namespace Proyecto3_Test
             Assert.AreEqual(resultadoEsperado, resultado);
         }
 
+        [Test]
+        public void Pregunta_ListaRespuestaValida()
+        {
+            bool respuesta = oPregunta.verificarListaValida(listaRespuestas);
+            Assert.True(respuesta);
+        }
+    
 
     }
 }
