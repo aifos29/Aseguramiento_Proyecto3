@@ -94,6 +94,18 @@ namespace Proyecto3_Test
         }
 
 
-        
+        [Test]
+        public void TestMethod1()
+        {
+            //Act  
+            StubExtensionManager stub = new StubExtensionManager();
+            FileChecker checker = new FileChecker(stub);
+
+            //Action  
+            bool IsTrueFile = checker.CheckFile("myFile.whatever");
+
+            //Assert  
+            Assert.AreEqual(true, IsTrueFile);
+        }
     }
 }
