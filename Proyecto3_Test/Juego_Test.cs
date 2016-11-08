@@ -92,5 +92,8 @@ namespace Proyecto3_Test
             int totalPreguntas = juego.mostrarTotalPreguntas();
             Assert.Greater(totalPreguntas, 0);
         }
+
+
+        
     }
 }
