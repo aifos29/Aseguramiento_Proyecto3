@@ -60,7 +60,21 @@ namespace Proyecto3_Test
             bool respuesta = oPregunta.verificarListaValida(listaRespuestas);
             Assert.True(respuesta);
         }
-    
+
+        [Test]
+        public void TestMethod1()
+        {
+            //Act  
+            MockExtensionService mockobject = new MockExtensionService();
+            //Inject mock object now  
+            ExtensionAnalyzer analyzer = new ExtensionAnalyzer(mockobject);
+            //Action  
+            analyzer.ExtensionCheck("somefile.someextension");
+
+            //Assert  
+            Assert.AreEqual(mockobject.ErrorMessage, "Wrong Type");
+        }
+
 
     }
 }
