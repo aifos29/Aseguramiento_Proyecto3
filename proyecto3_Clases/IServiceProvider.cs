@@ -16,7 +16,7 @@ namespace Proyecto3_Clases
         public string ErrorMessage = null;
         public void extensionService(string fileName)
         {
-            if (fileName.Split('.')[1] != "myType")
+            if (fileName.Split('.')[1] != "json")
             {
                 ErrorMessage = "Wrong Type";
             }

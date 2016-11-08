@@ -15,3 +15,13 @@ C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_P
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.dll
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.xml
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.xml
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Proyecto3_Clases.exe.config
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\obj\Debug\Proyecto3_Clases.exe
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\obj\Debug\Proyecto3_Clases.pdb
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Proyecto3_Clases.exe
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Proyecto3_Clases.pdb
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.dll
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.dll
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.xml
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.xml
+C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\obj\Debug\Proyecto3_Clases.csprojResolveAssemblyReference.cache
