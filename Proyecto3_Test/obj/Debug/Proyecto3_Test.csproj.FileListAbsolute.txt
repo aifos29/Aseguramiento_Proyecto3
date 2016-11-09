@@ -25,3 +25,7 @@ C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Pro
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.pdb
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.xml
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Rhino.Mocks.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log-RhinoMocks.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Rhino.Mocks.xml

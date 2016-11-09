@@ -18,15 +18,6 @@ namespace Proyecto3_Test
         public void initTest()
         {
             juego.preguntas.Add(oPregunta);
-            /*Respuesta respuesta1 = new Respuesta("Respuesta1", false);
-            Respuesta respuesta2 = new Respuesta("Respuesta2", true);
-            Respuesta respuesta3 = new Respuesta("Respuesta3", false);
-            Respuesta respuesta4 = new Respuesta("Respuesta4", false);
-
-            oPregunta.respuestas.Add(respuesta1);
-            oPregunta.respuestas.Add(respuesta2);
-            oPregunta.respuestas.Add(respuesta3);
-            oPregunta.respuestas.Add(respuesta4);*/
         }
         
         static Pregunta[] PreguntaCases =

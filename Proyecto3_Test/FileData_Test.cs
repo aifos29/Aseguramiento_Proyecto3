@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Proyecto3_Clases;
-using NSubstitute;
+using Rhino.Mocks;
 
 namespace Proyecto3_Test
 {
@@ -29,9 +29,26 @@ namespace Proyecto3_Test
         }
 
         [Test]
-        public void fileData_fileExtension_LoadCorrect()
+        public void fileData_listaPreguntasFile_LoadCorrect()
         {
-            var fileData = Substitute.For<FileData>();
+            var fileServiceMock = MockRepository.GenerateMock<FileData>();
+
+            List<Pregunta> listaPreguntas = new List<Pregunta>(3);
+
+            var pregunta1 = new Pregunta("Pregunta1", 1, respuestas);
+            var pregunta2 = new Pregunta("Pregunta2", 4, respuestas);
+            var pregunta3 = new Pregunta("Pregunta3", 9, respuestas);
+
+            listaPreguntas[0] = pregunta1;
+            listaPreguntas[1] = pregunta2;
+            listaPreguntas[2] = pregunta3;
+
+            fileServiceMock.Stub(x => x.listaPreguntasFile(3)).IgnoreArguments().Return(listaPreguntas);
+
+            Juego newGame = new Juego(3);
+
+            Assert.AreEqual(newGame.preguntas.Count, newGame.total_preguntas);
+
         }
     }
 }
