@@ -10,7 +10,8 @@ namespace Proyecto3_Clases
     {
         void extensionService(String fileName);
     }
-    //Mock extenison service provider  
+
+
     public class MockExtensionService : IServiceProvider
     {
         public string ErrorMessage = null;
@@ -18,12 +19,11 @@ namespace Proyecto3_Clases
         {
             if (fileName.Split('.')[1] != "json")
             {
-                ErrorMessage = "Wrong Type";
+                ErrorMessage = "Tipo Incorrecto de Archivo";
             }
         }
     }
 
-    //Actual incomplete ExtensionManager functionality  
     public class ExtensionManager : IServiceProvider
     {
         public void extensionService(string fileName)

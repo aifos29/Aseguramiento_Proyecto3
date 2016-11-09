@@ -1,6 +1,5 @@
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.pdb
-C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.exe
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.pdb
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.xml
@@ -24,3 +23,5 @@ C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Pro
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.csprojResolveAssemblyReference.cache
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.dll
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.pdb
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.xml

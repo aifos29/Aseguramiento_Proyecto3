@@ -25,3 +25,9 @@ C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Pro
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.xml
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.xml
 C:\Users\sofia\Documents\Visual Studio 2015\Projects\Aseguramiento_Proyecto3\Proyecto3_Clases\obj\Debug\Proyecto3_Clases.csprojResolveAssemblyReference.cache
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Castle.Core.xml
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.xml
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.dll
+C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.xml

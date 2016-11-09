@@ -13,8 +13,9 @@ namespace Proyecto3_Test
     class Pregunta_Test
     {
         Juego juego = new Juego(8);
-        Pregunta oPregunta = new Pregunta("Pregunta1", 6);
+        Pregunta oPregunta = new Pregunta("Pregunta1", 6, null);
         List<Respuesta> listaRespuestas = new List<Respuesta>(4);
+
         [SetUp]
         public void initTest()
         {
@@ -28,24 +29,18 @@ namespace Proyecto3_Test
             listaRespuestas.Add(respuesta2);
             listaRespuestas.Add(respuesta3);
             listaRespuestas.Add(respuesta4);
+
+            oPregunta.respuestas = listaRespuestas;
         }
-
-        static Pregunta[] PreguntaCases =
+        
+        [TestCase("Pregunta2", 1)]
+        [TestCase("Pregunta3",9)]
+        public void Pregunta_ConstructorPregunta(string pPregunta, int pDificultad)
         {
-            new Pregunta("Pregunta2", 2),
-            new Pregunta("Pregunta3", 6),
-            new Pregunta("Pregunta4", 1),
-            new Pregunta("Pregunta5", 9)
-        };
-
-
-        [TestCase("Esto es una pregunta?", "Esto es una pregunta?")]
-        [TestCase("Esto es NO una pregunta", "Esto es NO una pregunta")]
-
-        public void Pregunta_ConstructorPregunta(string pPregunta, int pDificultad,string resultadoEsperado)
-        {
-            Pregunta testPregunta = new Pregunta(pPregunta, 1);
-            Assert.AreEqual(resultadoEsperado, testPregunta.pregunta);
+            Pregunta testPregunta = new Pregunta(pPregunta, pDificultad, listaRespuestas);
+            Assert.AreEqual(pPregunta, testPregunta.pregunta);
+            Assert.AreEqual(pDificultad, testPregunta.dificultad);
+            Assert.AreEqual(listaRespuestas.Count, testPregunta.respuestas.Count);
         }
         
         public void Pregunta_agregarRespuesta_Correctamente(List<Respuesta> pRespuestas,bool resultadoEsperado)
@@ -55,26 +50,10 @@ namespace Proyecto3_Test
         }
 
         [Test]
-        public void Pregunta_ListaRespuestaValida()
+        public void Pregunta_listaRespuestaValida_CantidadCorrecta()
         {
             bool respuesta = oPregunta.verificarListaValida(listaRespuestas);
             Assert.True(respuesta);
         }
-
-        [Test]
-        public void TestMethod1()
-        {
-            //Act  
-            MockExtensionService mockobject = new MockExtensionService();
-            //Inject mock object now  
-            ExtensionAnalyzer analyzer = new ExtensionAnalyzer(mockobject);
-            //Action  
-            analyzer.ExtensionCheck("somefile.someextension");
-
-            //Assert  
-            Assert.AreEqual(mockobject.ErrorMessage, "Wrong Type");
-        }
-
-
     }
 }

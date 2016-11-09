@@ -16,7 +16,7 @@ namespace Proyecto3_Clases
         public int agregar_preguntas(Pregunta pPregunta)
         {
             preguntas.Add(pPregunta);
-            return preguntas.Count; /*puede ser count +1*/
+            return preguntas.Count; 
         }
 
         public int editar_preguntas(Pregunta pPregunta)
@@ -28,7 +28,7 @@ namespace Proyecto3_Clases
         public int borrar_preguntas(Pregunta pPregunta)
         {
             preguntas.Remove(pPregunta);
-            return preguntas.Count; /*puede ser count -1*/
+            return preguntas.Count; 
         }
 
         public int aumentarPuntuacion(Boolean pValor)
@@ -43,7 +43,7 @@ namespace Proyecto3_Clases
             return total_preguntas;
         }
 
-        public Juego (int totalPreguntas)
+        public Juego(int totalPreguntas)
         {
             total_preguntas = totalPreguntas;
         }

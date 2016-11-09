@@ -12,13 +12,13 @@ namespace Proyecto3_Test
     public class Juego_Test
     {
         Juego juego = new Juego(8);
-        Pregunta oPregunta = new Pregunta("Pregunta1", 6);
+        Pregunta oPregunta = new Pregunta("Pregunta2", 1, null);
 
         [SetUp]
         public void initTest()
         {
             juego.preguntas.Add(oPregunta);
-            Respuesta respuesta1 = new Respuesta("Respuesta1", false);
+            /*Respuesta respuesta1 = new Respuesta("Respuesta1", false);
             Respuesta respuesta2 = new Respuesta("Respuesta2", true);
             Respuesta respuesta3 = new Respuesta("Respuesta3", false);
             Respuesta respuesta4 = new Respuesta("Respuesta4", false);
@@ -26,16 +26,17 @@ namespace Proyecto3_Test
             oPregunta.respuestas.Add(respuesta1);
             oPregunta.respuestas.Add(respuesta2);
             oPregunta.respuestas.Add(respuesta3);
-            oPregunta.respuestas.Add(respuesta4);
+            oPregunta.respuestas.Add(respuesta4);*/
         }
         
         static Pregunta[] PreguntaCases =
         {
-            new Pregunta("Pregunta2", 2),
-            new Pregunta("Pregunta3", 6),
-            new Pregunta("Pregunta4", 1),
-            new Pregunta("Pregunta5", 9)
+            new Pregunta("Pregunta2", 2, null),
+            new Pregunta("Pregunta3", 6, null),
+            new Pregunta("Pregunta4", 1, null),
+            new Pregunta("Pregunta5", 9, null)
         };
+
 
         [Test, TestCaseSource("PreguntaCases")]
         public void juego_agregarPregunta_correctamente(Pregunta pPregunta)
@@ -44,15 +45,6 @@ namespace Proyecto3_Test
             int resultadoFunction = juego.agregar_preguntas(pPregunta);
 
             Assert.Greater(resultadoFunction, totalPreguntas);
-        }
-
-        [Test]
-        public void juego_editarPregunta_correctamente()
-        {
-            int totalPreguntas = juego.preguntas.Count;
-            int resultadoFunction = juego.editar_preguntas(oPregunta);
-
-            Assert.AreEqual(resultadoFunction, totalPreguntas);
         }
 
         [Test, TestCaseSource("PreguntaCases")]
@@ -64,6 +56,15 @@ namespace Proyecto3_Test
             Assert.Less(resultadoFunction, totalPreguntas);
         }
 
+        [Test]
+        public void juego_editarPregunta_correctamente()
+        {
+            int totalPreguntas = juego.preguntas.Count;
+            int resultadoFunction = juego.editar_preguntas(oPregunta);
+
+            Assert.AreEqual(resultadoFunction, totalPreguntas);
+        }
+
         [TestCase(false, 0)]
         [TestCase(true, 1)]
         [TestCase(false, 0)]
@@ -73,13 +74,10 @@ namespace Proyecto3_Test
             Assert.AreEqual(pPuntucionEsperada, puntuacionReturn);
         }
 
-
-
         [TestCase(9, 9)]
         [TestCase(1000, 1000)]
         [TestCase(0, 0)]
-        [TestCase(-1, 0)]
-
+        [TestCase(-1, 0)] //Se ingresa # negativo se espera que quede en 0
         public void juego_ContructorJuego(int pTotalPreguntas,int pResultadoEsperado)
         {
             Juego testJuego = new Juego(pTotalPreguntas);
@@ -98,13 +96,10 @@ namespace Proyecto3_Test
         public void checkExtension()
         {
             MockExtensionService mockobject = new MockExtensionService();
-            //Inject mock object now  
             ExtensionAnalyzer analyzer = new ExtensionAnalyzer(mockobject);
-            //Action  
-            analyzer.ExtensionCheck("somefile.txt");
+            analyzer.ExtensionCheck("fileData.txt");
 
-            //Assert  
-            Assert.AreEqual(mockobject.ErrorMessage, "Wrong Type");
+            Assert.AreEqual(mockobject.ErrorMessage, "Tipo Incorrecto de Archivo");
         }
     }
 }

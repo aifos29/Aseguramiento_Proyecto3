@@ -12,10 +12,11 @@ namespace Proyecto3_Clases
         public int dificultad;
         public List<Respuesta> respuestas = new List<Respuesta>(4);     
 
-        public Pregunta(string pPregunta, int pDificultad)
+        public Pregunta(string pPregunta, int pDificultad, List<Respuesta> pRespuestas)
         {
             pregunta = pPregunta;
             dificultad = pDificultad;
+            respuestas = pRespuestas;
         }
 
         public bool agregarRespuesta(List<Respuesta> pRespuestas)
