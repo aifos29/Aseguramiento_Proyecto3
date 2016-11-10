@@ -45,15 +45,17 @@ namespace Proyecto3_Test
             int resultadoFunction = juego.borrar_preguntas(pPregunta);
 
             Assert.Less(resultadoFunction, totalPreguntas);
+            Assert.IsFalse(juego.preguntas.Contains(pPregunta));
         }
 
         [Test]
         public void juego_editarPregunta_correctamente()
         {
             int totalPreguntas = juego.preguntas.Count;
-            int resultadoFunction = juego.editar_preguntas(oPregunta);
+            String enunciado = "Cambio de enunciado";
+            int resultadoFunction = juego.editar_preguntas(oPregunta,enunciado);
 
-            Assert.AreEqual(resultadoFunction, totalPreguntas);
+            Assert.AreEqual(juego.preguntas[resultadoFunction].pregunta,enunciado);
         }
 
         [TestCase(false, 0)]

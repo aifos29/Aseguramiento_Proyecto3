@@ -19,9 +19,19 @@ namespace Proyecto3_Clases
             return preguntas.Count; 
         }
 
-        public int editar_preguntas(Pregunta pPregunta)
+        public int editar_preguntas(Pregunta pPregunta,String nuevoEnunciado)
         {
-            return preguntas.Count; 
+            int pos=0;
+            for (int i = 0; i < preguntas.Count; i++)
+            {
+                if (preguntas[i] == pPregunta)
+                {
+                    preguntas[i].pregunta = nuevoEnunciado;
+                    pos = i;
+                    break;
+                }
+            }
+            return pos; 
 
         }
 
