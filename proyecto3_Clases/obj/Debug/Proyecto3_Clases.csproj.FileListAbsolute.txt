@@ -31,3 +31,5 @@ C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\D
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\Moq.xml
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.xml
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Clases\bin\Debug\NSubstitute.xml

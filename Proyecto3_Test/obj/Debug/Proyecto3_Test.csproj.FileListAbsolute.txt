@@ -8,7 +8,6 @@ C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Deb
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\obj\Debug\Proyecto3_Test.pdb
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.dll
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Test.pdb
-C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.dll
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.exe
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Proyecto3_Clases.pdb
 C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\nunit.framework.xml
@@ -29,3 +28,9 @@ C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Deb
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log-RhinoMocks.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log.dll
 C:\Users\Yasiell\Documents\Github\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Rhino.Mocks.xml
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Rhino.Mocks.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log-RhinoMocks.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\this.Log.dll
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\NSubstitute.xml
+C:\Users\Nelss-9000\Documents\TEC\IIS2016\Aseguraminto\proyecto3\Aseguramiento_Proyecto3\Proyecto3_Test\bin\Debug\Rhino.Mocks.xml

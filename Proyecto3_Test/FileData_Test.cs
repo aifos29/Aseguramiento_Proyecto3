@@ -33,21 +33,25 @@ namespace Proyecto3_Test
         {
             var fileServiceMock = MockRepository.GenerateMock<FileData>();
 
-            List<Pregunta> listaPreguntas = new List<Pregunta>(3);
+            //List<Pregunta> listaPreguntas = new List<Pregunta>(3);
+            /*
+            Pregunta pregunta1 = new Pregunta("Pregunta1", 1, respuestas);
+            Pregunta pregunta2 = new Pregunta("Pregunta2", 4, respuestas);
+            Pregunta pregunta3 = new Pregunta("Pregunta3", 9, respuestas);
 
-            var pregunta1 = new Pregunta("Pregunta1", 1, respuestas);
-            var pregunta2 = new Pregunta("Pregunta2", 4, respuestas);
-            var pregunta3 = new Pregunta("Pregunta3", 9, respuestas);
-
-            listaPreguntas[0] = pregunta1;
-            listaPreguntas[1] = pregunta2;
-            listaPreguntas[2] = pregunta3;
-
-            fileServiceMock.Stub(x => x.listaPreguntasFile(3)).IgnoreArguments().Return(listaPreguntas);
+            listaPreguntas.Add(pregunta1);
+            listaPreguntas.Add(pregunta2);
+            listaPreguntas.Add(pregunta3);
+            */
+            var listaPreguntas = MockRepository.GenerateStub<IList<Pregunta>>();
+            //fileServiceMock.Stub(x => x.listaPreguntasFile(3)).IgnoreArguments().Return(listaPreguntas);
+         
 
             Juego newGame = new Juego(3);
+            //newGame.preguntas = listaPreguntas;
+   
 
-            Assert.AreEqual(newGame.preguntas.Count, newGame.total_preguntas);
+            Assert.AreEqual(listaPreguntas.Count, newGame.total_preguntas);
 
         }
     }
